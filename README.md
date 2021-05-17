@@ -13,20 +13,22 @@ Static Variables:
 <li>$codeLength &ndash; The length of the short code characters.</li>
 </ul>
 
-Functions:
+<strong>Functions:</strong>
 
-__construct() – Set PDO object reference and timestamp.
-urlToShortCode() – Validate URL and create short code.
-validateUrlFormat() – Validate the format of the URL.
-verifyUrlExists() – Verify the URL whether it exist or not using cURL in PHP.
-urlExistsInDB() – Check whether the long URL is exist in the database. If exist, return the shot code, otherwise, return FALSE.
-createShortCode() – Create short code for the long URL and insert the long URL & short code in the database.
-generateRandomString() – Generate random string (short code) with the specified characters in the $chars variable.
-insertUrlInDB() – Insert URL info in the database using PDO Extension and MySQL and return the row ID.
-shortCodeToUrl() – Convert the short code to long URL and insert the hits count in the database.
-validateShortCode() – Validate the short code based on the allowed characters.
-getUrlFromDB() – Fetch the long URL from the database based on the short code.
-incrementCounter() – Increment the URL visits counter in the database for a particular record.
+<ul>
+<li>__construct() &ndash; Set PDO object reference and timestamp.</li>
+<li>urlToShortCode() &ndash; Validate URL and create short code.</li>
+<li>validateUrlFormat() &ndash; Validate the format of the URL.</li>
+<li>verifyUrlExists() &ndash; Verify the URL whether it exist or not using cURL in PHP.</li>
+<li>urlExistsInDB() &ndash; Check whether the long URL is exist in the database. If exist, return the shot code, otherwise, return FALSE.</li>
+<li>createShortCode() &ndash; Create short code for the long URL and insert the long URL &amp; short code in the database.</li>
+<li>generateRandomString() &ndash; Generate random string (short code) with the specified characters in the $chars variable.</li>
+<li>insertUrlInDB() &ndash; Insert URL info in the database using PDO Extension and MySQL and return the row ID.</li>
+<li>shortCodeToUrl() &ndash; Convert the short code to long URL and insert the hits count in the database.</li>
+<li>validateShortCode() &ndash; Validate the short code based on the allowed characters.</li>
+<li>getUrlFromDB() &ndash; Fetch the long URL from the database based on the short code.</li>
+<li>incrementCounter() &ndash; Increment the URL visits counter in the database for a particular record.</li>
+</ul>
 
 
 URL Rewrite with HTACCESS
