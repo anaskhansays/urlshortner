@@ -13,7 +13,7 @@
 class URLShortner
 {
     protected static $characters = "abcdfghjkmnpqrstvwxyz|ABCDFGHJKLMNPQRSTVWXYZ|0123456789";
-    protected static $tbl_name = "short_urls";
+    protected static $tbl_name = "shortened_urls";
     protected static $ifURLExists = false;
     protected static $codeLength = 7;
 
