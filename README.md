@@ -6,11 +6,13 @@ URL Shortener Library (class.URLShortener.php)
 The URL Shortener class allow to programmatically create short URL using PHP and MySQL. This class uses PDO Extension to work with the MySQL database, so, PDO object instance is required on initialization of URLShortener class.
 
 Static Variables:
+<ul>
+<li>$characters &ndash; Allowed characters for the short code. (Characters group is separated by |)</li>
+<li>$tbl_name &ndash; Database table name to store the URL and short code info.</li>
+<li>$ifURLExists &ndash; Set to TRUE, to check whether the long URL exists.</li>
+<li>$codeLength &ndash; The length of the short code characters.</li>
+</ul>
 
-$characters – Allowed characters for the short code. (Characters group is separated by |)
-$tbl_name – Database table name to store the URL and short code info.
-$ifURLExists – Set to TRUE, to check whether the long URL exists.
-$codeLength – The length of the short code characters.
 Functions:
 
 __construct() – Set PDO object reference and timestamp.
