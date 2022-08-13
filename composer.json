@@ -1,0 +1,7 @@
+{
+    "name": "anaskhansays/urlshortner",
+    "description": "create short URL with your own domain name",
+    "require": {
+        "php": ">=7.4"
+    }
+}
